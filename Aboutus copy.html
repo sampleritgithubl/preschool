@@ -1,0 +1,317 @@
+<!-- HTML: navigation and carousel -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aboutus</title>
+    <link rel="stylesheet" href="Aboutus.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Pre-School</div>
+            <ul class="nav-links">
+                <li><a href="kalpa.html" id="aboutLink1">Home</a></li>
+                <script>
+                    
+                    document.getElementById("aboutLink1").addEventListener("click", function(event) {
+                        event.preventDefault(); 
+                        window.location.href = "kalpa.html"; 
+                    });
+                </script>
+                <li><a href="Aboutus.html"id="aboutLink2">About Us</a></li>
+                <script>
+                    
+                    document.getElementById("aboutLink2").addEventListener("click", function(event) {
+                        event.preventDefault(); 
+                        window.location.href = "Aboutus.html"; 
+                    });
+                </script>
+                <li><a href="classes.html"id="aboutLink3">Classes</a></li>
+                <script>
+                    
+                    document.getElementById("aboutLink3").addEventListener("click", function(event) {
+                        event.preventDefault(); 
+                        window.location.href = "classes.html"; 
+                    });
+                </script>
+                <li><a href="#">Contact Us</a></li>
+                
+
+            </ul>
+            <div class="actions">
+                <button class="btn">Schedule a Visit</button>
+                <button class="btn"id="Register">Register</button>
+            </div>
+            <script>
+              // Selecting the Enroll Now button by its ID and adding the event listener
+              document.getElementById('Register').addEventListener('click', function() {
+                  window.location.href = 'Register.html'; // Redirect to the ictkids.html page
+              });
+          </script>
+          
+            </script>
+        </nav>
+    </header>
+    
+    
+    <section class="about-section">
+        <!-- About Pre-School Section -->
+        <div class="about-container">
+          <div class="text-content">
+            <div class="underline1">
+            <h2>About Pre-School<span class="underline"></span></h2>
+            </div>
+            <p>
+                Playschool helps in building a strong foundation in social, pre-academics, and general 
+                life skills. It helps in the development of a child's emotional and personal growth and provides
+                opportunities for children to learn in ways that sheerly interests them and develop a strong sense
+                of curiosity. Consequently, it helps in building a positive association with inquisitive learning 
+                in the form of fun activities and guided play. Playschool is important for your child as it helps 
+                in making the child habitual of the routine. The child also becomes aware of himself/herself and 
+                develops motor and cognitive skills. Playschools further enable the child to receive individual
+                attention as the school has a very low student-to-teacher ratio. According to the report, only
+                48% of poor children who were born in 2001 "started school ready to learn, compared to 75% of
+                children from middle- income families." Additionally, the amount of time parents of various 
+                socioeconomic statuses spend reading to their children has changed since the 1960s and 1970s.
+                 Parents with higher education read to their kids for up to an additional 30 minutes per day 
+                between 2010 and 2012, which adds up by the time the kids enter kindergarten. The kids are given 
+                the 'right' toys to play with according to their age of development which helps them to develop and
+                 learn the things that can be implemented or transferred onto them, 
+                such as changing the clothes of the doll, feeding the doll, etc. Some more benefits 
+                of playschool are mentioned below
+            </p>
+          </div>
+          <div class="image-content">
+            <img src="images/aboutus1.jpg" alt="About Pre-School">
+          </div>
+        </div>
+      
+        <!-- About Us Section -->
+        <div class="about-container">
+          <div class="text-content">
+            <div class="underline2">
+            <h2>About Us<span class="underline"></span></h2>
+             </div>
+            <p>
+                Founded over 12 years ago, our preschool has
+                proudly established itself as a leader in early
+                childhood education, offering a rich and nurturing
+                environment where young learners can thrive. Our
+                state-of-the-art facilities are thoughtfully designed to
+                inspire creativity and exploration, featuring spacious
+                classrooms, engaging play areas, and a variety of
+                resources that cater to the diverse interests of our
+                students. Our dedicated team of experienced
+                teachers, each with a passion for early education
+                and a wealth of knowledge in child development, are
+                committed to fostering a love of learning through
+                personalized instruction and hands-on activities. We
+                are proud to have built a strong and vibrant
+                community of families who support our mission, as
+                evidenced by our ever-growing fan base; they trust
+                us to provide a safe, inclusive, and stimulating
+                environment that not only prepares children for
+                future academic success but also helps them
+                develop vital social skills and lifelong friendships
+            </p>
+          </div>
+          <div class="image-content">
+            <img src="images/aboutus2.jpg" alt="About Us">
+          </div>
+        </div>
+    </section>
+
+
+      <section class="vision-mission-section">
+        <div class="vision-mission-container">
+          <!-- Vision Section -->
+          <div class="vision">
+            <h2>Vision</h2>
+            <p>
+              To be a leading preschool that inspires young learners to reach their full potential 
+              by fostering a love for education, creativity, and collaboration in a safe and nurturing environment.
+            </p>
+          </div>
+          <!-- Mission Section -->
+          <div class="mission">
+            <h2>Mission</h2>
+            <p>
+              Our mission is to provide a comprehensive early childhood education program that promotes holistic 
+              development through engaging and hands-on learning experiences. We are committed to nurturing each 
+              child's individuality by offering a supportive atmosphere led by experienced educators, encouraging 
+              curiosity, creativity, and critical thinking, while building a strong foundation for lifelong learning 
+              and growth.
+            </p>
+          </div>
+        </div>
+      </section>
+      
+      <section class="why-choose-us-section">
+        <h2>Why Choose Us</h2>
+        <ul>
+          <li>Experience: We have over 12 years of experience in early childhood education, ensuring quality care and learning.</li>
+          <li>Caring Teachers: Our dedicated educators are passionate and qualified, providing personalized attention to each child.</li>
+          <li>Fun Curriculum: We offer a play-based curriculum that makes learning engaging and enjoyable for kids.</li>
+          <li>Safe Environment: Our facilities are modern, safe, and designed for exploration and creativity.</li>
+          <li>Holistic Growth: We focus on the overall development of children—intellectually, socially, and emotionally.</li>
+          <li>Community Support: Our strong family community fosters connections and support for parents and children alike.</li>
+          <li>Flexible Hours: We provide various scheduling options to meet the needs of families.</li>
+          <li>Open Communication: We keep parents informed with regular updates about their child's progress and activities.</li>
+        </ul>
+      </section>
+
+      
+
+      <section class="ict-course-section">
+        <div class="ict-course-content">
+          <!-- Left Content: List -->
+          <div class="ict-course-list">
+            <h2>Our ICT Course for Kids</h2>
+            <ul>
+              <li>Interactive Storytelling</li>
+              <li>Digital Art Creation</li>
+              <li>Online Educational Videos</li>
+              <li>Digital Games</li>
+              <li>Simple Robotics</li>
+              <li>Group Projects</li>
+              <li>Mouse and Keyboard Skills</li>
+            </ul>
+            <div class="buttons">
+              <button class="enroll-btn"id="enrollNow1">Enroll Now</button>
+              <button class="read-more-btn">Read More</button>
+            </div>
+            <script>
+                
+                document.getElementById('enrollNow1').addEventListener('click', function() {
+                    window.location.href = 'ICTkids.html'; 
+                });
+            </script>
+            <!-- Hidden Content -->
+            <div class="additional-details">
+              <p>
+                Our ICT course is designed to foster creativity and technical skills in young learners. Kids will explore
+                the basics of programming, problem-solving techniques, and collaborative projects to build a strong
+                foundation in digital literacy.
+              </p>
+               
+              
+            </div>
+          </div>
+      
+          <!-- Right Content: Image -->
+          <div class="ict-course-image">
+            <img src="images/aboutus5.jpg" alt="ICT Course" />
+          </div>
+        </div>
+      </section>
+
+
+       
+
+    
+    
+    
+    
+    
+    
+    
+    <footer>
+        <!-- Footer Section -->
+        <div class="footer-container">
+            <div class="footer-row">
+                <!-- Contact Section -->
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <p><i class="fa fa-map-marker-alt"></i> 123 Street Name, City, Country</p>
+                    <p><i class="fa fa-phone-alt"></i> +123 456 789</p>
+                    <p><i class="fa fa-envelope"></i> info@example.com</p>
+                    
+                    <div class="social-icons">
+                        <a href="https://facebook.com" target="_blank" class="social-link">
+                            <i class="fab fa-facebook-f"></i> Facebook
+                        </a>
+                        <a href="https://youtube.com" target="_blank" class="social-link">
+                            <i class="fab fa-youtube"></i> YouTube
+                        </a>
+                        <a href="https://twitter.com" target="_blank" class="social-link">
+                            <i class="fab fa-twitter"></i> Twitter
+                        </a>
+                    </div>
+                </div>
+    
+                <div class="footer-column">
+                
+                  <div class="quick-links">
+                      <h2 class="text-white mb-4">Quick Links</h2>
+                      <ul class="links-list">
+                          <li><a href="Aboutus.html"id="aboutLink5">About Us</a></li>
+                          
+                  <script>
+                      
+                      document.getElementById("aboutLink5").addEventListener("click", function(event) {
+                          event.preventDefault(); 
+                          window.location.href = "Aboutus.html"; 
+                      });
+                  </script>
+                          <li><a href="Contactus.html"id="aboutLink6">Contact Us</a></li>
+                          <script>
+                      
+                              document.getElementById("aboutLink6").addEventListener("click", function(event) {
+                                  event.preventDefault(); 
+                                  window.location.href = "Contactus.html"; 
+                              });
+                          </script>
+  
+  
+                          <li><a href="classes.html"id="aboutLink7">Classes</a></li>
+                          <script>
+                      
+                              document.getElementById("aboutLink7").addEventListener("click", function(event) {
+                                  event.preventDefault(); 
+                                  window.location.href = "classes.html"; 
+                              });
+                          </script>
+  
+                          <li><a href="#">Admin</a></li>
+                          <li><a href="#">Schedule a Visit</a></li>
+                          <li><a href="Register.html"id="aboutLink8">Enroll Now</a></li>
+                          <script>
+                      
+                              document.getElementById("aboutLink8").addEventListener("click", function(event) {
+                                  event.preventDefault(); 
+                                  window.location.href = "Register.html"; 
+                              });
+                          </script>
+  
+  
+                          <li><a href="#">Admin Login</a></li>
+                      </ul>
+                  </div>
+              </div>
+    
+                <!-- Photo Gallery Section -->
+                <div class="footer-column">
+                    <h2>Photo Gallery</h2>
+                    <div class="gallery">
+                        <img src="images/classes-1.jpg" alt="Class 1">
+                        <img src="images/classes-2.jpg" alt="Class 2">
+                        <img src="images/classes-3.jpg" alt="Class 3">
+                        <img src="images/classes-4.jpg" alt="Class 4">
+                        <img src="images/classes-5.jpg" alt="Class 5">
+                        <img src="images/classes-6.jpg" alt="Class 6">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Your Website. All rights reserved. <a href="#">Privacy Policy</a> <a href="#">Terms of Service</a></p>
+        </div>
+        <script src="Aboutusjs.js"></script>
+    </body>
+    
+    </html>
+    

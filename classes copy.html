@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>classes</title>
+    <link rel="stylesheet" href="classes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Pre-School</div>
+            <ul class="nav-links">
+                <li><a href="kalpa.html" id="aboutLink1">Home</a></li>
+                <script>
+                    
+                    document.getElementById("aboutLink1").addEventListener("click", function(event) {
+                        event.preventDefault(); 
+                        window.location.href = "kalpa.html"; 
+                    });
+                </script>
+                <li><a href="Aboutus.html"id="aboutLink2">About Us</a></li>
+                <script>
+                    
+                    document.getElementById("aboutLink2").addEventListener("click", function(event) {
+                        event.preventDefault(); 
+                        window.location.href = "Aboutus.html"; 
+                    });
+                </script>
+                <li><a href="classes.html" id="aboutLink3">Classes</a></li>
+                <script>
+                    
+                    document.getElementById("aboutLink3").addEventListener("click", function(event) {
+                        event.preventDefault(); 
+                        window.location.href = "classes.html"; 
+                    });
+                </script>
+
+
+
+
+                <li><a href="Contactus.html"id="aboutLink4">Contact Us</a></li>
+                <script>
+                    
+                    document.getElementById("aboutLink4").addEventListener("click", function(event) {
+                        event.preventDefault(); 
+                        window.location.href = "Contactus.html"; 
+                    });
+                </script>
+
+            </ul>
+            <div class="actions">
+                <button class="btn">Schedule a Visit</button>
+                <button class="btn"id="Register">Register</button>
+            </div>
+            <script>
+                
+                document.getElementById('Register').addEventListener('click', function() {
+                    window.location.href = 'Register.html'; 
+                });
+            </script>
+        </nav>
+    </header>
+    <section class="classes-section">
+        <div class="content-box">
+            <h2>Our Classes</h2>
+            <p>
+                Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit.
+            </p>
+            <button id="learnMoreBtn" class="learn-more-btn">Learn More</button>
+            
+            <!-- Additional content that appears on click -->
+            <div id="extraDetails" class="extra-details hidden">
+                <p>
+                    Our preschool classes focus on providing a safe and nurturing environment where children can thrive. 
+                    Through hands-on activities, interactive lessons, and guided play, children develop social, emotional, and academic skills.
+                    We strive to foster creativity and a lifelong love for learning in all our students.
+                </p>
+            </div>
+        </div>
+        <div class="image-box">
+            <img src="images/classes1.jpg" alt="Classroom" class="class-image">
+        </div>
+    </section>
+
+
+
+
+
+    <section class="activities-table-section">
+        <table class="activities-table">
+            <tbody>
+                <tr>
+                    <td class="image-cell">
+                        <img src="images/art.jpg" alt="Art and Drawing">
+                    </td>
+                    <td class="content-cell">
+                        <h3>Art and Drawing</h3>
+                        <div class="class-details">
+                            <p><strong>Time:</strong> 1 hour</p>
+                            <p>Unleash creativity in our weekly art and drawing classes, where kids explore colors, shapes, 
+                            and imagination through fun, hands-on activities.</p>
+                            <div class="teacher-info">
+                                <img src="images/tech3.jpg" alt="Art Teacher">
+                                <div class="teacher-details">
+                                    <div class="teacher-name">Ms. Sarah Parker</div>
+                                    <p>Creative Arts Specialist</p>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="image-cell">
+                        <img src="images/dance1.jpg" alt="Dance">
+                    </td>
+                    <td class="content-cell">
+                        <h3>Dance</h3>
+                        <div class="class-details">
+                            <p><strong>Time:</strong> 2 hours</p>
+                            <p>Get moving in our weekly dance classes, where kids can express themselves, learn new moves, 
+                            and have fun with music and rhythm.</p>
+                            <div class="teacher-info">
+                                <img src="images/tech2.jpg" alt="Dance Teacher">
+                                <div class="teacher-details">
+                                    <div class="teacher-name">Ms. Emma Thompson</div>
+                                    <p>Dance & Movement Expert</p>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="image-cell">
+                        <img src="images/language.avif" alt="Language and Speaking">
+                    </td>
+                    <td class="content-cell">
+                        <h3>Language and Speaking</h3>
+                        <div class="class-details">
+                            <p><strong>Time:</strong> 2 hours</p>
+                            <p>Build confidence in our language and speaking classes, where kids learn words, practice sounds, 
+                            and communicate through fun activities.</p>
+                            <div class="teacher-info">
+                                <img src="images/tech3.jpg" alt="Language Teacher">
+                                <div class="teacher-details">
+                                    <div class="teacher-name">Mr. James Wilson</div>
+                                    <p>Language Development Specialist</p>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="image-cell">
+                        <img src="images/playing.jpg" alt="Playing Games">
+                    </td>
+                    <td class="content-cell">
+                        <h3>Playing Games</h3>
+                        <div class="class-details">
+                            <p><strong>Time:</strong> 2 hours</p>
+                            <p>Join our fun-filled game sessions, where kids learn, play, and build skills through interactive and exciting games.</p>
+                            <div class="teacher-info">
+                                <img src="images/tech3.jpg" alt="Games Teacher">
+                                <div class="teacher-details">
+                                    <div class="teacher-name">Mr. Michael Brown</div>
+                                    <p>Physical Education Expert</p>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="image-cell">
+                        <img src="images/writing.jpg" alt="Playing Games">
+                    </td>
+                    <td class="content-cell">
+                        <h3>Writing</h3>
+                        <div class="class-details">
+                            <p><strong>Time:</strong> 2 hours</p>
+                            <p>Spark a love for writing in our weekly classes, where kids practice letters, words, and storytelling in a fun and engaging way.</p>
+                            <div class="teacher-info">
+                                <img src="images/tech3.jpg" alt="Writing Teacher">
+                                <div class="teacher-details">
+                                    <div class="teacher-name">Ms. Lisa Anderson</div>
+                                    <p>Early Literacy Specialist</p>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+
+     <!-- Section 1: Activities -->
+     <!-- Section 1: Activities (Horizontal Layout) -->
+     <section class="activities">
+        <h2>Preschool Extracurricular Activities <span class="underline"></span></h2>
+        <div class="activity-row">
+            <div class="activity-item">
+                <div class="circle">
+                    <img src="images/extra6.jpg" alt="Gardening">
+                </div>
+                <div class="activity-content">
+                    <h3>Gardening</h3>
+                    <p>Teaches responsibility and love for nature.</p>
+                </div>
+            </div>
+            <div class="activity-item">
+                <div class="circle">
+                    <img src="images/extra1.jpg" alt="Science Experiments">
+                </div>
+                <div class="activity-content">
+                    <h3>Science Experiments</h3>
+                    <p>Introduces basic science concepts through fun activities.</p>
+                </div>
+            </div>
+            <div class="activity-item">
+                <div class="circle">
+                    <img src="images/extra4.jpg" alt="Cooking Classes">
+                </div>
+                <div class="activity-content">
+                    <h3>Cooking Classes</h3>
+                    <p>Simple recipes to learn measurements and following steps.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <!-- Section 2: Message with Arrow Navigation -->
+    <section class="message">
+        <div class="arrow left" onclick="navigate(-1)">&#8592;</div>
+        <div class="message-content">
+            <p>Parents, your active involvement is one of the greatest gifts you can give your child during these formative years. At our preschool, we encourage you to engage with your child's daily experiences, whether it's asking about their day, participating in special events, or exploring their favorite activities at home. Your support not only strengthens their confidence but also deepens their curiosity and enthusiasm for learning.</p>
+             <br>
+             <br>
+             <br>
+            <p><strong>President</strong><br>Baby Pre-school</p>
+        </div>
+        <div class="arrow right" onclick="navigate(1)">&#8594;</div>
+    </section>
+
+
+
+    <footer>
+        <!-- Footer Section -->
+        <div class="footer-container">
+            <div class="footer-row">
+                <!-- Contact Section -->
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <p><i class="fa fa-map-marker-alt"></i> 123 Street Name, City, Country</p>
+                    <p><i class="fa fa-phone-alt"></i> +123 456 789</p>
+                    <p><i class="fa fa-envelope"></i> info@example.com</p>
+                    
+                    <div class="social-icons">
+                        <a href="https://facebook.com" target="_blank" class="social-link">
+                            <i class="fab fa-facebook-f"></i> Facebook
+                        </a>
+                        <a href="https://youtube.com" target="_blank" class="social-link">
+                            <i class="fab fa-youtube"></i> YouTube
+                        </a>
+                        <a href="https://twitter.com" target="_blank" class="social-link">
+                            <i class="fab fa-twitter"></i> Twitter
+                        </a>
+                    </div>
+                </div>
+    
+                <!-- Quick Links Section -->
+                <div class="footer-column">
+                
+                    <div class="quick-links">
+                        <h2 class="text-white mb-4">Quick Links</h2>
+                        <ul class="links-list">
+                            <li><a href="Aboutus.html"id="aboutLink5">About Us</a></li>
+                            
+                    <script>
+                        
+                        document.getElementById("aboutLink5").addEventListener("click", function(event) {
+                            event.preventDefault(); 
+                            window.location.href = "Aboutus.html"; 
+                        });
+                    </script>
+                            <li><a href="Contactus.html"id="aboutLink6">Contact Us</a></li>
+                            <script>
+                        
+                                document.getElementById("aboutLink6").addEventListener("click", function(event) {
+                                    event.preventDefault(); 
+                                    window.location.href = "Contactus.html"; 
+                                });
+                            </script>
+    
+    
+                            <li><a href="classes.html"id="aboutLink7">Classes</a></li>
+                            <script>
+                        
+                                document.getElementById("aboutLink7").addEventListener("click", function(event) {
+                                    event.preventDefault(); 
+                                    window.location.href = "classes.html"; 
+                                });
+                            </script>
+    
+                            <li><a href="#">Admin</a></li>
+                            <li><a href="#">Schedule a Visit</a></li>
+                            <li><a href="Register.html"id="aboutLink8">Enroll Now</a></li>
+                            <script>
+                        
+                                document.getElementById("aboutLink8").addEventListener("click", function(event) {
+                                    event.preventDefault(); 
+                                    window.location.href = "Register.html"; 
+                                });
+                            </script>
+    
+    
+                            <li><a href="#">Admin Login</a></li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <!-- Photo Gallery Section -->
+                <div class="footer-column">
+                    <h2>Photo Gallery</h2>
+                    <div class="gallery">
+                        <img src="images/classes-1.jpg" alt="Class 1">
+                        <img src="images/classes-2.jpg" alt="Class 2">
+                        <img src="images/classes-3.jpg" alt="Class 3">
+                        <img src="images/classes-4.jpg" alt="Class 4">
+                        <img src="images/classes-5.jpg" alt="Class 5">
+                        <img src="images/classes-6.jpg" alt="Class 6">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Your Website. All rights reserved. <a href="#">Privacy Policy</a> <a href="#">Terms of Service</a></p>
+        </div>
+        <script src="classesjs.js"></script>
+    </body>
+    
+    </html>
+    

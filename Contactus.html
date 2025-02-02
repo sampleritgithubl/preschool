@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Baby Pre-School</title>
+    <link rel="stylesheet" href="Contactus.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+        <div class="nav-container">
+            <a href="kalpa.html" class="logo">
+                <img src="images/none.webp" alt="Preschool Logo">
+                <span class="logo-text">Baby Pre-School</span>
+            </a>
+    
+            <div class="mobile-menu">
+                <div class="menu-icon"></div>
+            </div>
+    
+            <div class="nav-links">
+                <a href="kalpa.html" class="nav-link"id="aboutLink1">Home</a>
+                <script>
+                        
+                  document.getElementById("aboutLink1").addEventListener("click", function(event) {
+                      event.preventDefault(); 
+                      window.location.href = "kalpa.html"; 
+                  });
+              </script>
+                <a href="Aboutus.html" class="nav-link"id="aboutLink2">About Us</a>
+                <script>
+                        
+                  document.getElementById("aboutLink2").addEventListener("click", function(event) {
+                      event.preventDefault(); 
+                      window.location.href = "Aboutus.html"; 
+                  });
+              </script>
+                <a href="classes.html" class="nav-link"id="aboutLink3">Classes</a>
+                <script>
+                        
+                  document.getElementById("aboutLink3").addEventListener("click", function(event) {
+                      event.preventDefault(); 
+                      window.location.href = "classes.html"; 
+                  });
+              </script>
+                <a href="ICTkids.html" class="nav-link"id="aboutLink4">ICT Kids</a>
+                <script>
+                        
+                  document.getElementById("aboutLink4").addEventListener("click", function(event) {
+                      event.preventDefault(); 
+                      window.location.href = "ICTkids.html"; 
+                  });
+              </script>
+                <a href="Register.html" class="nav-link"id="aboutLink5">Register</a> <script>
+                        
+                  document.getElementById("aboutLink5").addEventListener("click", function(event) {
+                      event.preventDefault(); 
+                      window.location.href = "Register.html"; 
+                  });
+              </script>
+                <a href="Contactus.html" class="nav-link contact-btn"id="aboutLink6">Contact Us</a>
+                <script>
+                        
+                  document.getElementById("aboutLink6").addEventListener("click", function(event) {
+                      event.preventDefault(); 
+                      window.location.href = "Contactus.html"; 
+                  });
+              </script>
+            </div>
+        </div>
+    </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="contact-hero">
+        <div class="hero-content">
+            <h1>Get in Touch</h1>
+            <p>We're here to help and answer any questions you might have</p>
+        </div>
+    </section>
+
+    <!-- Contact Details Section -->
+    <section class="contact-details-section">
+        <div class="contact-container">
+            <!-- Phone Contact -->
+            <div class="contact-card">
+                <div class="contact-icon">
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+                <h3 class="contact-type">Call Us</h3>
+                <p class="contact-info">+94 77 123 4567</p>
+                <p class="contact-info">+94 77 890 1234</p>
+            </div>
+
+            <!-- Email Contact -->
+            <div class="contact-card">
+                <div class="contact-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <h3 class="contact-type">Email Us</h3>
+                <p class="contact-info">info@babypreschool.com</p>
+                <p class="contact-info">support@babypreschool.com</p>
+            </div>
+
+            <!-- Location Contact -->
+            <div class="contact-card">
+                <div class="contact-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <h3 class="contact-type">Visit Us</h3>
+                <p class="contact-info">123 School Lane,<br>Colombo 05,<br>Sri Lanka</p>
+            </div>
+        </div>
+
+        <!-- Map Section -->
+        <div class="map-section">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=YOUR_MAP_EMBED_URL"
+                allowfullscreen>
+            </iframe>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="section-header">
+            <h2>Frequently Asked Questions</h2>
+        </div>
+        <div class="faq-container">
+            <div class="faq-card">
+                <h3>What age group does your preschool serve?</h3>
+                <p>We welcome children from ages 2 to 5, helping them prepare for kindergarten through age-appropriate learning activities and social experiences.</p>
+            </div>
+
+            <div class="faq-card">
+                <h3>What is the teacher-to-child ratio?</h3>
+                <p>We maintain a low teacher-to-child ratio to ensure that each child receives individualized attention and care. Our ratio is typically 1 teacher for every 8 children.</p>
+            </div>
+
+            <div class="faq-card">
+                <h3>How do you ensure children's safety?</h3>
+                <p>The safety of your child is our top priority. We have secure entrances, monitor children at all times, and have trained staff in first aid and CPR. Additionally, our facility is regularly cleaned and sanitized.</p>
+            </div>
+
+            <div class="faq-card">
+                <h3>Do you offer flexible enrollment options?</h3>
+                <p>We offer both part-time and full-time enrollment to accommodate different family schedules. You can choose from morning, afternoon, or full-day programs based on your needs.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form-section">
+        <div class="contact-container">
+            <div class="form-wrapper">
+                <div class="form-header">
+                    <span class="form-badge">Get In Touch</span>
+                    <h2>Send Us a Message</h2>
+                    <p>We'd love to hear from you! Please fill out the form below and we'll get back to you shortly.</p>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <div class="input-group">
+                                <i class="fas fa-user"></i>
+                                <input type="text" id="name" placeholder="Enter your name" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <div class="input-group">
+                                <i class="fas fa-envelope"></i>
+                                <input type="email" id="email" placeholder="Enter your email" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <div class="input-group">
+                            <i class="fas fa-tag"></i>
+                            <input type="text" id="subject" placeholder="Enter message subject" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <div class="input-group">
+                            <i class="fas fa-comment-alt"></i>
+                            <textarea id="message" rows="5" placeholder="Write your message here..." required></textarea>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="submit-btn">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+
+            <div class="contact-info">
+                <div class="info-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Our Location</h3>
+                    <p>123 School Street, Colombo, Sri Lanka</p>
+                </div>
+
+                <div class="info-card">
+                    <i class="fas fa-phone-alt"></i>
+                    <h3>Phone Number</h3>
+                    <p>+94 123 456 789</p>
+                    <p>+94 987 654 321</p>
+                </div>
+
+                <div class="info-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email Address</h3>
+                    <p>info@babypreschool.com</p>
+                    <p>support@babypreschool.com</p>
+                </div>
+
+                <div class="info-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Working Hours</h3>
+                    <p>Monday - Friday: 8:00 AM - 5:00 PM</p>
+                    <p>Saturday: 9:00 AM - 1:00 PM</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <!-- Footer Section -->
+        <div class="footer-container">
+            <div class="footer-row">
+                <!-- Contact Section -->
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <p><i class="fa fa-map-marker-alt"></i> 123 Street Name, City, Country</p>
+                    <p><i class="fa fa-phone-alt"></i> +123 456 789</p>
+                    <p><i class="fa fa-envelope"></i> info@example.com</p>
+                    
+                    <div class="social-icons">
+                        <a href="https://facebook.com" target="_blank" class="social-link">
+                            <i class="fab fa-facebook-f"></i> Facebook
+                        </a>
+                        <a href="https://youtube.com" target="_blank" class="social-link">
+                            <i class="fab fa-youtube"></i> YouTube
+                        </a>
+                        <a href="https://twitter.com" target="_blank" class="social-link">
+                            <i class="fab fa-twitter"></i> Twitter
+                        </a>
+                    </div>
+                </div>
+    
+                <!-- Quick Links Section -->
+                <div class="footer-column">
+                
+                    <div class="quick-links">
+                        <h2 class="text-white mb-4">Quick Links</h2>
+                        <ul class="links-list">
+                            <li><a href="Aboutus.html"id="aboutLink5">About Us</a></li>
+                            
+                    <script>
+                        
+                        document.getElementById("aboutLink5").addEventListener("click", function(event) {
+                            event.preventDefault(); 
+                            window.location.href = "Aboutus.html"; 
+                        });
+                    </script>
+                            <li><a href="Contactus.html"id="aboutLink6">Contact Us</a></li>
+                            <script>
+                        
+                                document.getElementById("aboutLink6").addEventListener("click", function(event) {
+                                    event.preventDefault(); 
+                                    window.location.href = "Contactus.html"; 
+                                });
+                            </script>
+    
+    
+                            <li><a href="classes.html"id="aboutLink7">Classes</a></li>
+                            <script>
+                        
+                                document.getElementById("aboutLink7").addEventListener("click", function(event) {
+                                    event.preventDefault(); 
+                                    window.location.href = "classes.html"; 
+                                });
+                            </script>
+    
+                            <li><a href="#">Admin</a></li>
+                            <li><a href="#">Schedule a Visit</a></li>
+                            <li><a href="Register.html"id="aboutLink8">Enroll Now</a></li>
+                            <script>
+                        
+                                document.getElementById("aboutLink8").addEventListener("click", function(event) {
+                                    event.preventDefault(); 
+                                    window.location.href = "Register.html"; 
+                                });
+                            </script>
+    
+    
+                            <li><a href="#">Admin Login</a></li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <!-- Photo Gallery Section -->
+                <div class="footer-column">
+                    <h2>Photo Gallery</h2>
+                    <div class="gallery">
+                        <img src="images/classes-1.jpg" alt="Class 1">
+                        <img src="images/classes-2.jpg" alt="Class 2">
+                        <img src="images/classes-3.jpg" alt="Class 3">
+                        <img src="images/classes-4.jpg" alt="Class 4">
+                        <img src="images/classes-5.jpg" alt="Class 5">
+                        <img src="images/classes-6.jpg" alt="Class 6">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Your Website. All rights reserved. <a href="#">Privacy Policy</a> <a href="#">Terms of Service</a></p>
+        </div>
+        <script src="script.js"></script>
+       
+    </footer>
+</body>
+
+</html>
+    

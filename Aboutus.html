@@ -1,0 +1,353 @@
+<!-- HTML: navigation and carousel -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aboutus</title>
+    <link rel="stylesheet" href="Aboutus.css">
+</head>
+
+<body>
+    <header>
+      <nav class="navbar">
+      <div class="nav-container">
+          <a href="kalpa.html" class="logo">
+              <img src="images/none.webp" alt="Preschool Logo">
+              <span class="logo-text">Baby Pre-School</span>
+          </a>
+  
+          <div class="mobile-menu">
+              <div class="menu-icon"></div>
+          </div>
+  
+          <div class="nav-links">
+            <a href="kalpa.html" class="nav-link" id="aboutLink1">Home</a>
+            <script>
+                document.getElementById("aboutLink1").addEventListener("click", function(event) {
+                    window.location.href = "kalpa.html"; 
+                });
+            </script>
+        
+            <a href="Aboutus.html" class="nav-link active" id="aboutLink2">About Us</a>
+            <script>
+                document.getElementById("aboutLink2").addEventListener("click", function(event) {
+                    window.location.href = "Aboutus.html"; 
+                });
+            </script>
+        
+            <a href="classes.html" class="nav-link" id="aboutLink3">Classes</a>
+            <script>
+                document.getElementById("aboutLink3").addEventListener("click", function(event) {
+                    window.location.href = "classes.html"; 
+                });
+            </script>
+        
+            <a href="ICTkids.html" class="nav-link" id="aboutLink4">ICT Kids</a>
+            <script>
+                document.getElementById("aboutLink4").addEventListener("click", function(event) {
+                    window.location.href = "ICTkids.html"; 
+                });
+            </script>
+        
+            <a href="Register.html" class="nav-link" id="aboutLink5">Register</a> 
+            <script>
+                document.getElementById("aboutLink5").addEventListener("click", function(event) {
+                    window.location.href = "Register.html"; 
+                });
+            </script>
+        
+            <a href="Contactus.html" class="nav-link contact-btn" id="aboutLink6">Contact Us</a>
+            <script>
+                document.getElementById("aboutLink6").addEventListener("click", function(event) {
+                    window.location.href = "Contactus.html"; 
+                });
+            </script>
+        </div>
+        
+          </div>
+      </div>
+  </nav>
+    </header>
+   
+    
+    <!-- Hero Section -->
+    <section class="about-hero">
+        <div class="shape shape1">
+            <svg width="50" height="50" viewBox="0 0 50 50">
+                <circle cx="25" cy="25" r="20" fill="white"/>
+            </svg>
+        </div>
+        <div class="shape shape2">
+            <svg width="50" height="50" viewBox="0 0 50 50">
+                <rect width="40" height="40" x="5" y="5" fill="white"/>
+            </svg>
+        </div>
+        <div class="shape shape3">
+            <svg width="50" height="50" viewBox="0 0 50 50">
+                <polygon points="25,5 45,40 5,40" fill="white"/>
+            </svg>
+        </div>
+        <div class="hero-content">
+            <h1>Inspiring Young Minds</h1>
+            <p>Where learning meets imagination and creativity knows no bounds</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="about-container">
+            <div class="about-card">
+                <div class="card-image">
+                    <img src="images/aboutus1.jpg" alt="Our Approach">
+                </div>
+                <div class="card-content">
+                    <h3>Our Approach</h3>
+                    <p>We believe in nurturing each child's unique potential through creative play, exploration, and guided learning experiences.</p>
+                </div>
+            </div>
+            
+            <div class="about-card">
+                <div class="card-image">
+                    <img src="images/aboutus2.jpg" alt="Our Environment">
+                </div>
+                <div class="card-content">
+                    <h3>Our Environment</h3>
+                    <p>Our state-of-the-art facilities provide a safe, stimulating space where children can thrive and discover.</p>
+                </div>
+            </div>
+            
+            <div class="about-card">
+                <div class="card-image">
+                    <img src="images/aboutus3.jpg" alt="Our Teachers">
+                </div>
+                <div class="card-content">
+                    <h3>Our Teachers</h3>
+                    <p>Dedicated educators who bring passion, expertise, and creativity to inspire lifelong learning.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision & Mission Section -->
+    <section class="vision-mission-section">
+        <div class="vision-mission-container">
+            <div class="vision-card">
+                <div class="card-icon">
+                    <i class="fas fa-eye"></i>
+                </div>
+                <h2>Our Vision</h2>
+                <p>To be the leading preschool in nurturing confident, creative, and compassionate young learners who are ready to embrace future challenges.</p>
+            </div>
+            
+            <div class="mission-card">
+                <div class="card-icon">
+                    <i class="fas fa-star"></i>
+                </div>
+                <h2>Our Mission</h2>
+                <p>To provide an innovative learning environment that inspires curiosity, fosters creativity, and builds strong foundations for lifelong success.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us-section">
+        <div class="why-choose-container">
+            <div class="section-title">
+                <h2>Why Choose Us</h2>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-history"></i>
+                    </div>
+                    <h3 class="feature-title">12+ Years Experience</h3>
+                    <p class="feature-text">Over a decade of experience in early childhood education, ensuring quality care and learning.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3 class="feature-title">Expert Teachers</h3>
+                    <p class="feature-text">Our dedicated educators are passionate and qualified, providing personalized attention to each child.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-puzzle-piece"></i>
+                    </div>
+                    <h3 class="feature-title">Fun Curriculum</h3>
+                    <p class="feature-text">Play-based curriculum that makes learning engaging and enjoyable for kids.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="feature-title">Safe Environment</h3>
+                    <p class="feature-text">Modern, secure facilities designed for exploration and creativity.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <h3 class="feature-title">Holistic Growth</h3>
+                    <p class="feature-text">Focus on intellectual, social, and emotional development of children.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3 class="feature-title">Flexible Hours</h3>
+                    <p class="feature-text">Various scheduling options to meet the needs of busy families.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ict-course-section">
+        <div class="ict-course-content">
+          <!-- Left Content: List -->
+          <div class="ict-course-list">
+            <h2>Our ICT Course for Kids</h2>
+            <ul>
+              <li>Interactive Storytelling</li>
+              <li>Digital Art Creation</li>
+              <li>Online Educational Videos</li>
+              <li>Digital Games</li>
+              <li>Simple Robotics</li>
+              <li>Group Projects</li>
+              <li>Mouse and Keyboard Skills</li>
+            </ul>
+            <div class="buttons">
+              <button class="enroll-btn"id="enrollNow1">Enroll Now</button>
+              <button class="read-more-btn">Read More</button>
+            </div>
+            <script>
+                
+                document.getElementById('enrollNow1').addEventListener('click', function() {
+                    window.location.href = 'ICTkids.html'; 
+                });
+            </script>
+            <!-- Hidden Content -->
+            <div class="additional-details">
+              <p>
+                Our ICT course is designed to foster creativity and technical skills in young learners. Kids will explore
+                the basics of programming, problem-solving techniques, and collaborative projects to build a strong
+                foundation in digital literacy.
+              </p>
+               
+              
+            </div>
+          </div>
+      
+          <!-- Right Content: Image -->
+          <div class="ict-course-image">
+            <img src="images/aboutus5.jpg" alt="ICT Course" />
+          </div>
+        </div>
+    </section>
+
+    <footer>
+        <!-- Footer Section -->
+        <div class="footer-container">
+            <div class="footer-row">
+                <!-- Contact Section -->
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <p><i class="fa fa-map-marker-alt"></i> 123 Street Name, City, Country</p>
+                    <p><i class="fa fa-phone-alt"></i> +123 456 789</p>
+                    <p><i class="fa fa-envelope"></i> info@example.com</p>
+                    
+                    <div class="social-icons">
+                        <a href="https://facebook.com" target="_blank" class="social-link">
+                            <i class="fab fa-facebook-f"></i> Facebook
+                        </a>
+                        <a href="https://youtube.com" target="_blank" class="social-link">
+                            <i class="fab fa-youtube"></i> YouTube
+                        </a>
+                        <a href="https://twitter.com" target="_blank" class="social-link">
+                            <i class="fab fa-twitter"></i> Twitter
+                        </a>
+                    </div>
+                </div>
+    
+                <div class="footer-column">
+                
+                  <div class="quick-links">
+                      <h2 class="text-white mb-4">Quick Links</h2>
+                      <ul class="links-list">
+                          <li><a href="Aboutus.html"id="aboutLink5">About Us</a></li>
+                          
+                  <script>
+                      
+                      document.getElementById("aboutLink5").addEventListener("click", function(event) {
+                          event.preventDefault(); 
+                          window.location.href = "Aboutus.html"; 
+                      });
+                  </script>
+                          <li><a href="Contactus.html"id="aboutLink6">Contact Us</a></li>
+                          <script>
+                      
+                              document.getElementById("aboutLink6").addEventListener("click", function(event) {
+                                  event.preventDefault(); 
+                                  window.location.href = "Contactus.html"; 
+                              });
+                          </script>
+  
+  
+                          <li><a href="classes.html"id="aboutLink7">Classes</a></li>
+                          <script>
+                      
+                              document.getElementById("aboutLink7").addEventListener("click", function(event) {
+                                  event.preventDefault(); 
+                                  window.location.href = "classes.html"; 
+                              });
+                          </script>
+  
+                          <li><a href="#">Admin</a></li>
+                          <li><a href="#">Schedule a Visit</a></li>
+                          <li><a href="Register.html"id="aboutLink8">Enroll Now</a></li>
+                          <script>
+                      
+                              document.getElementById("aboutLink8").addEventListener("click", function(event) {
+                                  event.preventDefault(); 
+                                  window.location.href = "Register.html"; 
+                              });
+                          </script>
+  
+  
+                          <li><a href="#">Admin Login</a></li>
+                      </ul>
+                  </div>
+              </div>
+    
+                <!-- Photo Gallery Section -->
+                <div class="footer-column">
+                    <h2>Photo Gallery</h2>
+                    <div class="gallery">
+                        <img src="images/classes-1.jpg" alt="Class 1">
+                        <img src="images/classes-2.jpg" alt="Class 2">
+                        <img src="images/classes-3.jpg" alt="Class 3">
+                        <img src="images/classes-4.jpg" alt="Class 4">
+                        <img src="images/classes-5.jpg" alt="Class 5">
+                        <img src="images/classes-6.jpg" alt="Class 6">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Your Website. All rights reserved. <a href="#">Privacy Policy</a> <a href="#">Terms of Service</a></p>
+        </div>
+        <script src="Aboutusjs.js"></script>
+        
+      
+    </body>
+    
+    </html>
+    

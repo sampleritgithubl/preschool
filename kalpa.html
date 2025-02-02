@@ -1,0 +1,686 @@
+<!-- HTML: navigation and carousel -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PreSchool</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body >
+    <header>
+        <nav class="navbar">
+        <div class="nav-container">
+            <a href="kalpa.html" class="logo">
+                <img src="images/none.webp" alt="Preschool Logo">
+                <span class="logo-text">Baby Pre-School</span>
+            </a>
+    
+            <div class="mobile-menu">
+                <div class="menu-icon"></div>
+            </div>
+    
+            <div class="nav-links">
+                <a href="kalpa.html" class="nav-link active"id="aboutLink1">Home</a>
+                <script>
+                        
+                  document.getElementById("aboutLink1").addEventListener("click", function(event) {
+                      event.preventDefault(); 
+                      window.location.href = "kalpa.html"; 
+                  });
+              </script>
+                <a href="Aboutus.html" class="nav-link"id="aboutLink2">About Us</a>
+                <script>
+                        
+                  document.getElementById("aboutLink2").addEventListener("click", function(event) {
+                      event.preventDefault(); 
+                      window.location.href = "Aboutus.html"; 
+                  });
+              </script>
+                <a href="classes.html" class="nav-link"id="aboutLink3">Classes</a>
+                <script>
+                        
+                  document.getElementById("aboutLink3").addEventListener("click", function(event) {
+                      event.preventDefault(); 
+                      window.location.href = "classes.html"; 
+                  });
+              </script>
+                <a href="ICTkids.html" class="nav-link"id="aboutLink4">ICT Kids</a>
+                <script>
+                        
+                  document.getElementById("aboutLink4").addEventListener("click", function(event) {
+                      event.preventDefault(); 
+                      window.location.href = "ICTkids.html"; 
+                  });
+              </script>
+                <a href="Register.html" class="nav-link"id="aboutLink5">Register</a> <script>
+                        
+                  document.getElementById("aboutLink5").addEventListener("click", function(event) {
+                      event.preventDefault(); 
+                      window.location.href = "Register.html"; 
+                  });
+              </script>
+                <a href="Contactus.html" class="nav-link contact-btn"id="aboutLink6">Contact Us</a>
+                <script>
+                        
+                  document.getElementById("aboutLink6").addEventListener("click", function(event) {
+                      event.preventDefault(); 
+                      window.location.href = "Contactus.html"; 
+                  });
+              </script>
+            </div>
+        </div>
+    </nav>
+    
+    <section class="hero-carousel">
+        <div class="carousel-container">
+            <div class="carousel-slide active">
+                <div class="carousel-content">
+                    <h1 class="slide-title">Welcome to Baby Pre-School</h1>
+                    <p class="slide-description">Where young minds bloom and dreams take flight</p>
+                    <button class="carousel-btn">Get Started</button>
+                </div>
+                <img src="images/u1.jpg" alt="Preschool Environment">
+            </div>
+
+            <div class="carousel-slide">
+                <div class="carousel-content">
+                    <h1 class="slide-title">Expert Teachers, Happy Children</h1>
+                    <p class="slide-description">Nurturing creativity and fostering growth</p>
+                    <button class="carousel-btn">Learn More</button>
+                </div>
+                <img src="images/u2.jpg" alt="Learning Activities">
+            </div>
+
+            <div class="carousel-slide">
+                <div class="carousel-content">
+                    <h1 class="slide-title">Innovative Learning Programs</h1>
+                    <p class="slide-description">Building tomorrow's leaders today</p>
+                    <button class="carousel-btn">Explore Now</button>
+                </div>
+                <img src="images/u3.jpg" alt="Creative Activities">
+            </div>
+
+            <button class="carousel-arrow prev">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="carousel-arrow next">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+
+            <div class="carousel-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </section>
+    <!-- <section class="new-programs">
+        <div class="program-container">
+            <div class="program-box">
+                <div class="green-line"></div>
+                
+                <div class="program-content">
+                    <h2 id="program-title">Buy a flower as a gift and send it for free to your friend.</h2>
+                    <p id="program-description">
+                
+                    </p>
+                    
+                    <p class="program-count" id="program-count">1/3</p>
+                    <button class="arrow-button" id="next-button">&gt;</button>
+                </div>
+            </div>
+            
+        </div>
+        
+    </section> -->
+    
+    <!-- weekly class section -->
+    <section class="weekly-classes-section">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-badge">Our Schedule</span>
+                <h2 class="section-title">Weekly Learning Programs</h2>
+                <p class="section-description">
+                    Discover our carefully crafted weekly programs designed to nurture young minds through 
+                    interactive learning and creative exploration.
+                </p>
+            </div>
+    
+            <div class="class-grid">
+                <!-- Class Card 1 -->
+                <div class="class-card">
+                    <div class="card-image">
+                        <img src="images/art.jpg" alt="Art and Drawing">
+                        <span class="time-badge">60 mins</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Art & Drawing</h3>
+                        <p>Unleash creativity through colors, shapes, and artistic expression in our engaging art sessions.</p>
+                        <div class="class-info">
+                            <span><i class="fas fa-clock"></i> Monday & Wednesday</span>
+                            <span><i class="fas fa-users"></i> Ages 4-6</span>
+                        </div>
+                        <button class="enroll-btn">Join Class</button>
+                    </div>
+                </div>
+    
+                <!-- Class Card 2 -->
+                <div class="class-card">
+                    <div class="card-image">
+                        <img src="images/dance1.jpg" alt="Dance">
+                        <span class="time-badge">45 mins</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Dance & Movement</h3>
+                        <p>Build confidence and coordination through fun dance routines and creative movement.</p>
+                        <div class="class-info">
+                            <span><i class="fas fa-clock"></i> Tuesday & Thursday</span>
+                            <span><i class="fas fa-users"></i> Ages 3-6</span>
+                        </div>
+                        <button class="enroll-btn">Join Class</button>
+                    </div>
+                </div>
+    
+                <!-- Class Card 3 -->
+                <div class="class-card">
+                    <div class="card-image">
+                        <img src="images/language.avif" alt="Language">
+                        <span class="time-badge">50 mins</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Language Skills</h3>
+                        <p>Develop communication skills through interactive storytelling and vocabulary building.</p>
+                        <div class="class-info">
+                            <span><i class="fas fa-clock"></i> Wednesday & Friday</span>
+                            <span><i class="fas fa-users"></i> Ages 4-6</span>
+                        </div>
+                        <button class="enroll-btn">Join Class</button>
+                    </div>
+                </div>
+    
+                <!-- Class Card 4 -->
+                <div class="class-card">
+                    <div class="card-image">
+                        <img src="images/writing.jpg" alt="Writing Skills">
+                        <span class="time-badge">45 mins</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Writing & Literacy</h3>
+                        <p>Master essential writing skills through engaging activities and creative storytelling sessions.</p>
+                        <div class="class-info">
+                            <span><i class="fas fa-clock"></i> Tuesday & Friday</span>
+                            <span><i class="fas fa-users"></i> Ages 4-6</span>
+                        </div>
+                        <button class="enroll-btn">Join Class</button>
+                    </div>
+                </div>
+    
+                <!-- Class Card 5 -->
+                <div class="class-card">
+                    <div class="card-image">
+                        <img src="images/playing.jpg" alt="Interactive Play">
+                        <span class="time-badge">55 mins</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Interactive Play</h3>
+                        <p>Develop social skills and creativity through guided play activities and educational games.</p>
+                        <div class="class-info">
+                            <span><i class="fas fa-clock"></i> Monday & Thursday</span>
+                            <span><i class="fas fa-users"></i> Ages 3-6</span>
+                        </div>
+                        <button class="enroll-btn">Join Class</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Modern Pricing Plans Section -->
+<section class="pricing-plans">
+    <div class="pricing-header">
+        <span class="pricing-badge">Our Plans</span>
+        <h2>Choose Your Perfect Plan</h2>
+        <p>Select the best learning journey for your child's growth and development</p>
+    </div>
+
+    <div class="pricing-container">
+        <!-- Starter Plan -->
+        <div class="pricing-card">
+            <div class="card-header">
+                <div class="plan-name">Starter</div>
+                <div class="plan-price">
+                    <span class="currency">$</span>
+                    <span class="amount">199</span>
+                    <span class="period">/month</span>
+                </div>
+                <div class="plan-subtitle">Perfect for Ages 2-3 Years</div>
+            </div>
+            <div class="card-body">
+                <ul class="features-list">
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <span>Interactive Learning Games</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <span>Basic Computer Skills</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <span>Creative Art Activities</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <span>Social Development</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <span>Parent Progress Reports</span>
+                    </li>
+                </ul>
+                <button class="plan-button">Get Started</button>
+            </div>
+        </div>
+
+        <!-- Popular Plan -->
+        <div class="pricing-card popular">
+            <div class="popular-badge">Most Popular</div>
+            <div class="card-header">
+                <div class="plan-name">Standard</div>
+                <div class="plan-price">
+                    <span class="currency">$</span>
+                    <span class="amount">249</span>
+                    <span class="period">/month</span>
+                </div>
+                <div class="plan-subtitle">Perfect for Ages 4-5 Years</div>
+            </div>
+            <div class="card-body">
+                <ul class="features-list">
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <span>Advanced Learning Tools</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <span>Coding Basics</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <span>Digital Art Projects</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <span>Team Activities</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <span>Monthly Assessments</span>
+                    </li>
+                </ul>
+                <button class="plan-button">Get Started</button>
+            </div>
+        </div>
+
+        <!-- Advanced Plan -->
+        <div class="pricing-card">
+            <div class="card-header">
+                <div class="plan-name">Advanced</div>
+                <div class="plan-price">
+                    <span class="currency">$</span>
+                    <span class="amount">299</span>
+                    <span class="period">/month</span>
+                </div>
+                <div class="plan-subtitle">Perfect for Ages 5-6 Years</div>
+            </div>
+            <div class="card-body">
+                <ul class="features-list">
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <span>Advanced Problem Solving</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <span>App Development Basics</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <span>Digital Storytelling</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <span>Leadership Activities</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <span>Personalized Mentoring</span>
+                    </li>
+                </ul>
+                <button class="plan-button">Get Started</button>
+            </div>
+        </div>
+    </div>
+</section>
+      
+
+
+
+
+
+<!-- ict for kids section -->
+<section class="classes-section">
+    <div class="shapes-container">
+        <div class="shape">
+            <svg width="100" height="100" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="45" fill="white"/>
+            </svg>
+        </div>
+        <div class="shape">
+            <svg width="100" height="100" viewBox="0 0 100 100">
+                <rect width="80" height="80" x="10" y="10" fill="white"/>
+            </svg>
+        </div>
+        <div class="shape">
+            <svg width="100" height="100" viewBox="0 0 100 100">
+                <polygon points="50,10 90,90 10,90" fill="white"/>
+            </svg>
+        </div>
+    </div>
+    
+    <div class="content-box">
+        <h2>New programs for kids</h2>
+        <h2>TO GET SUCCESS</h2>
+        <p> "Explore a world of fun and simple tech activities made just for 5-year-olds, where learning about computers, coding, and digital games is easy and exciting!"</p>
+        <button id="learnMoreBtn" class="learn-more-btn">Enroll Now</button>
+        <script>
+                
+            document.getElementById('learnMoreBtn').addEventListener('click', function() {
+                window.location.href = 'ICTkids.html'; 
+            });
+        </script>
+        <div id="extraDetails" class="extra-details hidden">
+            <p>At our preschool, we create an environment where every child's potential flourishes. Through our expertly designed curriculum and dedicated educators, we ensure each student receives personalized attention and guidance to develop essential skills while discovering their unique talents.</p>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- teachers section -->
+
+
+    <section class="teachers-section">
+        <div class="section-heading">
+            <h2>Our Expert Teachers</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="teachers-container">
+            <div class="teachers-grid">
+                <!-- Teacher 1 -->
+                <div class="teacher-card">
+                    <div class="teacher-image">
+                        <img src="images/tech2.jpg" alt="Dancing Teacher">
+                        <div class="teacher-overlay">
+                            <div class="social-links">
+                                <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h3 class="teacher-name">C.N.L Perera</h3>
+                        <p class="teacher-role">Dancing Teacher</p>
+                        <p class="teacher-qualification">Dip in Teaching</p>
+                        <p class="teacher-description">
+                            Expert in classical and modern dance forms with over 10 years of teaching experience.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Teacher 2 -->
+                <div class="teacher-card">
+                    <div class="teacher-image">
+                        <img src="images/tech3.jpg" alt="Language Writing Teacher">
+                        <div class="teacher-overlay">
+                            <div class="social-links">
+                                <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h3 class="teacher-name">E.P Silva</h3>
+                        <p class="teacher-role">Language Writing Teacher</p>
+                        <p class="teacher-qualification">Dip in Teaching</p>
+                        <p class="teacher-description">
+                            Specialized in early childhood language development and creative writing.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Teacher 3 -->
+                <div class="teacher-card">
+                    <div class="teacher-image">
+                        <img src="images/tech4.jpg" alt="Art and Drawing Teacher">
+                        <div class="teacher-overlay">
+                            <div class="social-links">
+                                <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h3 class="teacher-name">S.M.I.D Fernando</h3>
+                        <p class="teacher-role">Art and Drawing Teacher</p>
+                        <p class="teacher-qualification">Dip in Teaching</p>
+                        <p class="teacher-description">
+                            Passionate about nurturing creativity through art and visual expression.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Healthy Food Everyday Section -->
+    <section class="healthy-food">
+        <div class="container">
+            <div class="text-section">
+                <h1> BREAKFAST  </h1>
+                <p>Healthy foods play a vital role in a child's overall development. Proper nutrition fuels
+                     their physical growth, supports brain development, and strengthens their immune system, 
+                     ensuring they have the energy and focus needed for learning and play. Introducing balanced meals, including fruits, vegetables,
+                     whole grains, lean proteins, and healthy fats, helps establish good eating habits early on.
+                    </p>
+                <ul>
+                    <li>Physical Growth and Development</li>
+                    <li>Boosts Brain Development</li>
+                    <li>Improves Academic Performance</li>
+                    <li>Improves Digestive Health</li>
+                </ul>
+            </div>
+            <div class="image-section">
+                <div class="image-wrapper">
+
+                    <img class="image1" src="images/healthy4.jpg" alt="Breakfast Image 1">
+                    <img class="image2" src="images/healthy3.jpeg" alt="Breakfast Image 2">
+                    
+                </div>
+                <div class="background-box"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>Welcome to Baby Pre-School</h1>
+            <p>Where young minds bloom and dreams take flight. Our innovative learning approach nurtures creativity, curiosity, and confidence in every child.</p>
+            <div class="cta-buttons">
+                <button class="cta-btn primary-btn" id="enrollBtn">Enroll Now</button>
+                <!-- <button class="cta-btn secondary-btn" onclick="showMoreInfo()">Learn More</button> -->
+            </div>
+        </div>
+    </section>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById("enrollBtn").addEventListener("click", function() {
+                window.location.href = "Register.html";
+            });
+            function showMoreInfo() {
+        alert("Welcome to Baby Pre-School! We provide a nurturing and creative environment for young learners. Contact us for more details.");
+    }
+        });
+    </script>
+
+    <!-- Features Section -->
+    <section class="features-section">
+        <div class="features-container">
+            <div class="section-title">
+                <h2>Why Choose Us</h2>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3 class="feature-title">Expert Teachers</h3>
+                    <p class="feature-text">Dedicated educators with years of experience in early childhood development.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-puzzle-piece"></i>
+                    </div>
+                    <h3 class="feature-title">Creative Learning</h3>
+                    <p class="feature-text">Engaging activities that make learning fun and memorable for every child.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3 class="feature-title">Safe Environment</h3>
+                    <p class="feature-text">A nurturing and secure space where children can explore and grow confidently.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<footer>
+    <!-- Footer Section -->
+    <div class="footer-container">
+        <div class="footer-row">
+            <!-- Contact Section -->
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <p><i class="fa fa-map-marker-alt"></i> 123 Street Name, City, Country</p>
+                <p><i class="fa fa-phone-alt"></i> +123 456 789</p>
+                <p><i class="fa fa-envelope"></i> info@example.com</p>
+                
+                <div class="social-icons">
+                    <a href="https://facebook.com" target="_blank" class="social-link">
+                        <i class="fab fa-facebook-f"></i> Facebook
+                    </a>
+                    <a href="https://youtube.com" target="_blank" class="social-link">
+                        <i class="fab fa-youtube"></i> YouTube
+                    </a>
+                    <a href="https://twitter.com" target="_blank" class="social-link">
+                        <i class="fab fa-twitter"></i> Twitter
+                    </a>
+                </div>
+            </div>
+
+            <!-- Quick Links Section -->
+            <div class="footer-column">
+                
+                <div class="quick-links">
+                    <h2 class="text">Quick Links</h2>
+                    <ul class="links-list">
+                        <li><a href="Aboutus.html"id="aboutLink5">About Us</a></li>
+                        
+                <script>
+                    
+                    document.getElementById("aboutLink5").addEventListener("click", function(event) {
+                        event.preventDefault(); 
+                        window.location.href = "Aboutus.html"; 
+                    });
+                </script>
+                        <li><a href="Contactus.html"id="aboutLink6">Contact Us</a></li>
+                        <script>
+                    
+                            document.getElementById("aboutLink6").addEventListener("click", function(event) {
+                                event.preventDefault(); 
+                                window.location.href = "Contactus.html"; 
+                            });
+                        </script>
+
+
+                        <li><a href="classes.html"id="aboutLink7">Classes</a></li>
+                        <script>
+                    
+                            document.getElementById("aboutLink7").addEventListener("click", function(event) {
+                                event.preventDefault(); 
+                                window.location.href = "classes.html"; 
+                            });
+                        </script>
+
+                        <li><a href="#">Admin</a></li>
+                        <li><a href="#">Schedule a Visit</a></li>
+                        <li><a href="Register.html"id="aboutLink8">Enroll Now</a></li>
+                        <script>
+                    
+                            document.getElementById("aboutLink8").addEventListener("click", function(event) {
+                                event.preventDefault(); 
+                                window.location.href = "Register.html"; 
+                            });
+                        </script>
+
+
+                        <li><a href="#">Admin Login</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Photo Gallery Section -->
+            <div class="footer-column">
+                <h2>Photo Gallery</h2>
+                <div class="gallery">
+                    <img src="images/classes-1.jpg" alt="Class 1">
+                    <img src="images/classes-2.jpg" alt="Class 2">
+                    <img src="images/classes-3.jpg" alt="Class 3">
+                    <img src="images/classes-4.jpg" alt="Class 4">
+                    <img src="images/classes-5.jpg" alt="Class 5">
+                    <img src="images/classes-6.jpg" alt="Class 6">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Your Website. All rights reserved. <a href="#">Privacy Policy</a> <a href="#">Terms of Service</a></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

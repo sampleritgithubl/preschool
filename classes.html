@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>classes</title>
+    <link rel="stylesheet" href="classes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="kalpa.html" class="logo">
+                    <img src="images/none.webp" alt="Preschool Logo">
+                    <span class="logo-text">Baby Pre-School</span>
+                </a>
+
+                <div class="mobile-menu">
+                    <div class="menu-icon"></div>
+                </div>
+
+                <div class="nav-links">
+                    <a href="kalpa.html" class="nav-link">Home</a>
+                    <a href="Aboutus.html" class="nav-link">About Us</a>
+                    <a href="classes.html" class="nav-link active">Classes</a>
+                    <a href="ICTkids.html" class="nav-link">ICT Kids</a>
+                    <a href="Register.html" class="nav-link">Register</a>
+                    <a href="Contactus.html" class="nav-link contact-btn">Contact Us</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="classes-section">
+        <div class="shape shape1">
+            <svg width="100" height="100" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="45" fill="white"/>
+            </svg>
+        </div>
+        <div class="shape shape2">
+            <svg width="100" height="100" viewBox="0 0 100 100">
+                <rect width="80" height="80" x="10" y="10" fill="white"/>
+            </svg>
+        </div>
+        <div class="shape shape3">
+            <svg width="100" height="100" viewBox="0 0 100 100">
+                <polygon points="50,10 90,90 10,90" fill="white"/>
+            </svg>
+        </div>
+        
+        <div class="content-box">
+            <h2>Discover Learning</h2>
+            <p>Embark on an extraordinary educational journey where imagination meets knowledge. Our innovative programs are crafted to inspire young minds through creative exploration and engaging experiences that shape the future.</p>
+            <button onclick="scrollToClasses()" class="learn-more-btn">Start The Journey</button>
+            
+            <div id="extraDetails" class="extra-details">
+                <p>At our preschool, we create an environment where every child's potential flourishes. Through our expertly designed curriculum and dedicated educators, 
+                    we ensure each student receives personalized attention and guidance to develop essential skills while discovering their unique talents.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="image-section">
+        <div class="image-box">
+            <img src="images/classes1.jpg" alt="Classroom" class="class-image">
+        </div>
+    </section> -->
+
+    <section class="activities-table-section" id="classes-section">
+        <h2>Our Class Programs</h2>
+        <table class="activities-table">
+            <tbody>
+                <tr>
+                    <td class="image-cell">
+                        <img src="images/art.jpg" alt="Art and Drawing">
+                    </td>
+                    <td class="content-cell">
+                        <h3>Creative Arts & Drawing</h3>
+                        <div class="class-details">
+                            <p><strong>Duration:</strong> 60 minutes</p>
+                            <p>Unleash your child's creativity through our engaging art program. Children explore colors, shapes, and textures while developing fine motor skills and artistic expression. Our classes foster imagination and confidence through hands-on creative activities.</p>
+                            <div class="teacher-info">
+                                <img src="images/tech3.jpg" alt="Art Teacher">
+                                <div class="teacher-details">
+                                    <div class="teacher-name">Ms. Sarah Parker</div>
+                                    <p>Creative Arts Specialist</p>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="image-cell">
+                        <img src="images/dance1.jpg" alt="Dance">
+                    </td>
+                    <td class="content-cell">
+                        <h3>Dance & Movement</h3>
+                        <div class="class-details">
+                            <p><strong>Duration:</strong> 45 minutes</p>
+                            <p>Our dance program combines fun and fitness, helping children develop rhythm, coordination, and self-expression. Through music and movement, kids build confidence while learning basic dance techniques in a supportive environment.</p>
+                            <div class="teacher-info">
+                                <img src="images/tech2.jpg" alt="Dance Teacher">
+                                <div class="teacher-details">
+                                    <div class="teacher-name">Ms. Emma Thompson</div>
+                                    <p>Dance & Movement Expert</p>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="image-cell">
+                        <img src="images/language.avif" alt="Language and Speaking">
+                    </td>
+                    <td class="content-cell">
+                        <h3>Language & Communication</h3>
+                        <div class="class-details">
+                            <p><strong>Duration:</strong> 50 minutes</p>
+                            <p>Develop essential communication skills through interactive storytelling, vocabulary building, and speaking activities. Our program helps children gain confidence in expressing themselves while improving their language abilities.</p>
+                            <div class="teacher-info">
+                                <img src="images/tech3.jpg" alt="Language Teacher">
+                                <div class="teacher-details">
+                                    <div class="teacher-name">Mr. James Wilson</div>
+                                    <p>Language Development Specialist</p>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="image-cell">
+                        <img src="images/writing.jpg" alt="Writing Skills">
+                    </td>
+                    <td class="content-cell">
+                        <h3>Writing & Literacy</h3>
+                        <div class="class-details">
+                            <p><strong>Duration:</strong> 45 minutes</p>
+                            <p>Our writing program focuses on developing essential literacy skills through engaging activities. Children learn proper pencil grip, letter formation, and basic writing techniques while building confidence in their ability to express themselves through written words.</p>
+                            <div class="teacher-info">
+                                <img src="images/tech4.jpg" alt="Writing Teacher">
+                                <div class="teacher-details">
+                                    <div class="teacher-name">Ms. Emily Davis</div>
+                                    <p>Early Literacy Specialist</p>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="image-cell">
+                        <img src="images/playing.jpg" alt="Interactive Play">
+                    </td>
+                    <td class="content-cell">
+                        <h3>Interactive Play & Games</h3>
+                        <div class="class-details">
+                            <p><strong>Duration:</strong> 55 minutes</p>
+                            <p>Through structured play and educational games, children develop crucial social skills, problem-solving abilities, and emotional intelligence. Our interactive sessions combine fun with learning, helping kids build friendships while mastering important developmental milestones.</p>
+                            <div class="teacher-info">
+                                <img src="images/tech2.jpg" alt="Play Teacher">
+                                <div class="teacher-details">
+                                    <div class="teacher-name">Mr. David Brown</div>
+                                    <p>Child Development Expert</p>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Section 1: Activities -->
+    <!-- Section 1: Activities (Horizontal Layout) -->
+    <section class="activities">
+        <h2>Preschool Extracurricular Activities <span class="underline"></span></h2>
+        <div class="activity-row">
+            <div class="activity-item">
+                <div class="circle">
+                    <img src="images/extra6.jpg" alt="Gardening">
+                </div>
+                <div class="activity-content">
+                    <h3>Gardening</h3>
+                    <p>Teaches responsibility and love for nature.</p>
+                </div>
+            </div>
+            <div class="activity-item">
+                <div class="circle">
+                    <img src="images/extra1.jpg" alt="Science Experiments">
+                </div>
+                <div class="activity-content">
+                    <h3>Science Experiments</h3>
+                    <p>Introduces basic science concepts through fun activities.</p>
+                </div>
+            </div>
+            <div class="activity-item">
+                <div class="circle">
+                    <img src="images/extra4.jpg" alt="Cooking Classes">
+                </div>
+                <div class="activity-content">
+                    <h3>Cooking Classes</h3>
+                    <p>Simple recipes to learn measurements and following steps.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Section 2: Message with Arrow Navigation -->
+    <section class="message">
+        <div class="arrow left" onclick="navigate(-1)">&#8592;</div>
+        <div class="message-content">
+            <p>Parents, your active involvement is one of the greatest gifts you can give your child during these formative years. At our preschool, we encourage you to engage with your child's daily experiences, whether it's asking about their day, participating in special events, or exploring their favorite activities at home. Your support not only strengthens their confidence but also deepens their curiosity and enthusiasm for learning.</p>
+             <br>
+             <br>
+             <br>
+            <p><strong>President</strong><br>Baby Pre-school</p>
+        </div>
+        <div class="arrow right" onclick="navigate(1)">&#8594;</div>
+    </section>
+
+    <footer>
+        <!-- Footer Section -->
+        <div class="footer-container">
+            <div class="footer-row">
+                <!-- Contact Section -->
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <p><i class="fa fa-map-marker-alt"></i> 123 Street Name, City, Country</p>
+                    <p><i class="fa fa-phone-alt"></i> +123 456 789</p>
+                    <p><i class="fa fa-envelope"></i> info@example.com</p>
+                    
+                    <div class="social-icons">
+                        <a href="https://facebook.com" target="_blank" class="social-link">
+                            <i class="fab fa-facebook-f"></i> Facebook
+                        </a>
+                        <a href="https://youtube.com" target="_blank" class="social-link">
+                            <i class="fab fa-youtube"></i> YouTube
+                        </a>
+                        <a href="https://twitter.com" target="_blank" class="social-link">
+                            <i class="fab fa-twitter"></i> Twitter
+                        </a>
+                    </div>
+                </div>
+    
+                <!-- Quick Links Section -->
+                <div class="footer-column">
+                
+                    <div class="quick-links">
+                        <h2 class="text-white mb-4">Quick Links</h2>
+                        <ul class="links-list">
+                            <li><a href="Aboutus.html"id="aboutLink5">About Us</a></li>
+                            
+                    <script>
+                        
+                        document.getElementById("aboutLink5").addEventListener("click", function(event) {
+                            event.preventDefault(); 
+                            window.location.href = "Aboutus.html"; 
+                        });
+                        
+    function navigateTo(page) {
+        window.location.href = page;
+    }
+
+    // Mobile menu toggle
+    document.querySelector('.mobile-menu').addEventListener('click', function() {
+        document.querySelector('.nav-links').classList.toggle('active');
+        this.classList.toggle('active');
+    });
+
+    // Set active link based on current page
+    document.addEventListener('DOMContentLoaded', function() {
+        const currentPage = window.location.pathname.split('/').pop();
+        const navLinks = document.querySelectorAll('.nav-link');
+        
+        navLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('onclick').includes(currentPage)) {
+                link.classList.add('active');
+            }
+        });
+    });
+</script>
+    
+    
+                            <li><a href="#">Admin Login</a></li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <!-- Photo Gallery Section -->
+                <div class="footer-column">
+                    <h2>Photo Gallery</h2>
+                    <div class="gallery">
+                        <img src="images/classes-1.jpg" alt="Class 1">
+                        <img src="images/classes-2.jpg" alt="Class 2">
+                        <img src="images/classes-3.jpg" alt="Class 3">
+                        <img src="images/classes-4.jpg" alt="Class 4">
+                        <img src="images/classes-5.jpg" alt="Class 5">
+                        <img src="images/classes-6.jpg" alt="Class 6">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Your Website. All rights reserved. <a href="#">Privacy Policy</a> <a href="#">Terms of Service</a></p>
+        </div>
+        <script src="classesjs.js"></script>
+        <script>
+        document.querySelector('.mobile-menu').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+            this.classList.toggle('active');
+        });
+
+        // Add active class to current page link
+        document.addEventListener('DOMContentLoaded', function() {
+            const currentPage = window.location.pathname.split('/').pop();
+            const navLinks = document.querySelectorAll('.nav-link');
+            
+            navLinks.forEach(link => {
+                if(link.getAttribute('href') === currentPage) {
+                    link.classList.add('active');
+                }
+            });
+        });
+        </script>
+    </footer>
+
+    <script>
+    function scrollToClasses() {
+        const classesSection = document.getElementById('classes-section');
+        if (classesSection) {
+            classesSection.scrollIntoView({ 
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }
+    }
+    </script>
+</body>
+
+</html>
+    

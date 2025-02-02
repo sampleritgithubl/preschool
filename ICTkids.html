@@ -1,0 +1,296 @@
+<!-- HTML: navigation and carousel -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICTkids</title>
+    <link rel="stylesheet" href="ICTkids.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+        <div class="nav-container">
+            <a href="kalpa.html" class="logo">
+                <img src="images/preschool-logo.avif" alt="Preschool Logo">
+                <span class="logo-text">Baby Pre-School</span>
+            </a>
+    
+            <div class="mobile-menu">
+                <div class="menu-icon"></div>
+            </div>
+    
+            <div class="nav-links">
+                <a href="kalpa.html" class="nav-link">Home</a>
+                <a href="Aboutus.html" class="nav-link">About Us</a>
+                <a href="classes.html" class="nav-link">Classes</a>
+                <a href="ICTkids.html" class="nav-link active">ICT Kids</a>
+                <a href="Register.html" class="nav-link">Register</a>
+                <a href="Contactus.html" class="nav-link contact-btn">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+    </header>
+
+<section>
+        <!-- Hero Section -->
+  <div class="hero-section">
+    <h1>Discover the World of Technology</h1>
+    <p>Our preschool ICT program introduces young minds to technology through engaging, hands-on activities. We focus on developing essential digital skills while making learning fun and interactive.</p>
+    <button class="enroll-button" onclick="scrollToImage()">Start Learning Today</button>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Image Section
+   
+  <div class="image-section" id="enrollment-section">
+    <img src="images/ict2.jpg" alt="ICT Program for Kids" loading="lazy">
+  </div>
+
+</section> -->
+
+
+  <!-- Form Section -->
+  <div class="form-section" id="enrollment-section">
+    <div class="form-container">
+      <div class="form-content"id="nextSection">
+        <h2>Begin Your Child's Tech Journey</h2>
+        <form id="ict-form">
+          <input type="text" placeholder="Parent's Name" required>
+          <input type="email" placeholder="Email Address" required>
+          <input type="tel" placeholder="Contact Number" required>
+          <input type="text" placeholder="Child's Name" required>
+          <select required>
+            <option value="">Select Age Group</option>
+            <option value="3-5">3-5 years</option>
+            <option value="6-8">6-8 years</option>
+            <option value="9-12">9-12 years</option>
+          </select>
+          <textarea placeholder="Any specific requirements or questions?" rows="4"></textarea>
+          <button type="submit">Submit Registration</button>
+        </form>
+      </div>
+      <div class="form-image">
+        <img src="images/uml35.jpg" alt="Children Learning Technology" loading="lazy">
+      </div>
+    </div>
+  </div>
+  <hr>
+  
+  <!-- Section 3: Pricing Plan -->
+  <section class="pricing-plan">
+    <h2>Pricing Plan For ICT Program</h2>
+    <div class="pricing-cards">
+        <!-- Basic Plan -->
+        <div class="pricing-card">
+            <div class="pricing-duration">Basic</div>
+            <div class="pricing-content">
+                <div class="price-icon">
+                    <i class="fas fa-laptop"></i>
+                </div>
+                <h3>Starter Package</h3>
+                <div class="price">
+                    <span class="currency">$</span>
+                    <span class="amount">99</span>
+                    <span class="period">/month</span>
+                </div>
+                <ul>
+                    <li><i class="fas fa-check"></i> Registration fee</li>
+                    <li><i class="fas fa-check"></i> Basic computer skills</li>
+                    <li><i class="fas fa-check"></i> Educational games</li>
+                    <li><i class="fas fa-check"></i> 2 Sessions per week</li>
+                </ul>
+                <button class="pay-button">Enroll Now</button>
+            </div>
+        </div>
+
+        <!-- Standard Plan -->
+        <div class="pricing-card featured">
+            <div class="pricing-duration">Standard</div>
+            <div class="pricing-content">
+                <div class="price-icon">
+                    <i class="fas fa-desktop"></i>
+                </div>
+                <h3>Popular Choice</h3>
+                <div class="price">
+                    <span class="currency">$</span>
+                    <span class="amount">149</span>
+                    <span class="period">/month</span>
+                </div>
+                <ul>
+                    <li><i class="fas fa-check"></i> All Basic features</li>
+                    <li><i class="fas fa-check"></i> Advanced computer skills</li>
+                    <li><i class="fas fa-check"></i> Basic coding concepts</li>
+                    <li><i class="fas fa-check"></i> 3 Sessions per week</li>
+                </ul>
+                <button class="pay-button">Enroll Now</button>
+            </div>
+        </div>
+
+        <!-- Premium Plan -->
+        <div class="pricing-card">
+            <div class="pricing-duration">Premium</div>
+            <div class="pricing-content">
+                <div class="price-icon">
+                    <i class="fas fa-rocket"></i>
+                </div>
+                <h3>Advanced Learning</h3>
+                <div class="price">
+                    <span class="currency">$</span>
+                    <span class="amount">199</span>
+                    <span class="period">/month</span>
+                </div>
+                <ul>
+                    <li><i class="fas fa-check"></i> All Standard features</li>
+                    <li><i class="fas fa-check"></i> Project-based learning</li>
+                    <li><i class="fas fa-check"></i> Advanced coding</li>
+                    <li><i class="fas fa-check"></i> 4 Sessions per week</li>
+                </ul>
+                <button class="pay-button">Enroll Now</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<script>
+    function scrollToImage() {
+        document.getElementById("nextSection").scrollIntoView({ behavior: "smooth" });
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+    <!-- Footer Section -->
+    <div class="footer-container">
+        <div class="footer-row">
+            <!-- Contact Section -->
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <p><i class="fa fa-map-marker-alt"></i> 123 Street Name, City, Country</p>
+                <p><i class="fa fa-phone-alt"></i> +123 456 789</p>
+                <p><i class="fa fa-envelope"></i> info@example.com</p>
+                
+                <div class="social-icons">
+                    <a href="https://facebook.com" target="_blank" class="social-link">
+                        <i class="fab fa-facebook-f"></i> Facebook
+                    </a>
+                    <a href="https://youtube.com" target="_blank" class="social-link">
+                        <i class="fab fa-youtube"></i> YouTube
+                    </a>
+                    <a href="https://twitter.com" target="_blank" class="social-link">
+                        <i class="fab fa-twitter"></i> Twitter
+                    </a>
+                </div>
+            </div>
+
+            <!-- Quick Links Section -->
+            <div class="footer-column">
+                
+                <div class="quick-links">
+                    <h2 class="text-white mb-4">Quick Links</h2>
+                    <ul class="links-list">
+                        <li><a href="Aboutus.html"id="aboutLink5">About Us</a></li>
+                        
+                <script>
+                    
+                    document.getElementById("aboutLink5").addEventListener("click", function(event) {
+                        event.preventDefault(); 
+                        window.location.href = "Aboutus.html"; 
+                    });
+                </script>
+                        <li><a href="Contactus.html"id="aboutLink6">Contact Us</a></li>
+                        <script>
+                    
+                            document.getElementById("aboutLink6").addEventListener("click", function(event) {
+                                event.preventDefault(); 
+                                window.location.href = "Contactus.html"; 
+                            });
+                        </script>
+
+
+                        <li><a href="classes.html"id="aboutLink7">Classes</a></li>
+                        <script>
+                    
+                            document.getElementById("aboutLink7").addEventListener("click", function(event) {
+                                event.preventDefault(); 
+                                window.location.href = "classes.html"; 
+                            });
+                        </script>
+
+                        <li><a href="#">Admin</a></li>
+                        <li><a href="#">Schedule a Visit</a></li>
+                        <li><a href="Register.html"id="aboutLink8">Enroll Now</a></li>
+                        <script>
+                    
+                            document.getElementById("aboutLink8").addEventListener("click", function(event) {
+                                event.preventDefault(); 
+                                window.location.href = "Register.html"; 
+                            });
+                        </script>
+
+
+                        <li><a href="#">Admin Login</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Photo Gallery Section -->
+            <div class="footer-column">
+                <h2>Photo Gallery</h2>
+                <div class="gallery">
+                    <img src="images/classes-1.jpg" alt="Class 1">
+                    <img src="images/classes-2.jpg" alt="Class 2">
+                    <img src="images/classes-3.jpg" alt="Class 3">
+                    <img src="images/classes-4.jpg" alt="Class 4">
+                    <img src="images/classes-5.jpg" alt="Class 5">
+                    <img src="images/classes-6.jpg" alt="Class 6">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Your Website. All rights reserved. <a href="#">Privacy Policy</a> <a href="#">Terms of Service</a></p>
+    </div>
+    <script src="ICTkidsjs.js"></script>
+</body>
+
+</html>
