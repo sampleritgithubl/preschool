@@ -8,7 +8,7 @@ body {
 
 header {
     background: linear-gradient(90deg, #ece9f0, #f9f9ff);
-    padding: 1rem 2rem;
+    padding: 1rem 9rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
